@@ -1,0 +1,77 @@
+src/nz/ac/massey/cs/pp/tutorial4/ElementNotFoundException.java:3:	headerCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/ElementNotFoundException.java:5:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/ElementNotFoundException.java:10:	Parameter 'message' is not assigned and could be declared final
+src/nz/ac/massey/cs/pp/tutorial4/ElementNotFoundException.java:10:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleList.java:3:	headerCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleList.java:8:	Avoid modifiers which are implied by the context
+src/nz/ac/massey/cs/pp/tutorial4/SimpleList.java:15:	Avoid modifiers which are implied by the context
+src/nz/ac/massey/cs/pp/tutorial4/SimpleList.java:21:	Avoid modifiers which are implied by the context
+src/nz/ac/massey/cs/pp/tutorial4/SimpleList.java:28:	Avoid modifiers which are implied by the context
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:7:	Each class should declare at least one constructor
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:7:	This class has too many methods, consider refactoring it.
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:7:	headerCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:9:	Avoid using redundant field initializer for 'list'
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:9:	fieldCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:12:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:17:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:18:	The String literal "one" appears 15 times in this file; the first occurrence is on line 18
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:23:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:25:	The String literal "two" appears 14 times in this file; the first occurrence is on line 25
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:30:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:38:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:46:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:54:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:62:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:70:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:79:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:88:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:97:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:105:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:112:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/SimpleListTests.java:118:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:13:	Each class should declare at least one constructor
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:16:	fieldCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:20:	Parameter 'element' is not assigned and could be declared final
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:20:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:22:	Found 'DU'-anomaly for variable 'elementindex' (lines '22'-'45').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:22:	Local variable 'elementindex' could be declared final
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:23:	Avoid if (x != y) ..; else ..;
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:24:	Found 'DD'-anomaly for variable 'newContent' (lines '24'-'28').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:24:	Found 'DD'-anomaly for variable 'newContent' (lines '24'-'31').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:28:	Found 'DD'-anomaly for variable 'newContent' (lines '28'-'28').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:28:	Found 'DD'-anomaly for variable 'newContent' (lines '28'-'31').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:32:	System.out.println is used
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:34:	System.out.println is used
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:40:	System.out.println is used
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:48:	Parameter 'element' is not assigned and could be declared final
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:48:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:50:	Avoid variables with short names like a
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:50:	Found 'DD'-anomaly for variable 'a' (lines '50'-'57').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:51:	Found 'DD'-anomaly for variable 'index' (lines '51'-'56').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:51:	Found 'DU'-anomaly for variable 'index' (lines '51'-'71').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:52:	Found 'DD'-anomaly for variable 'new1' (lines '52'-'61').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:52:	Found 'DD'-anomaly for variable 'new1' (lines '52'-'64').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:52:	Found 'DU'-anomaly for variable 'new1' (lines '52'-'71').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:55:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:56:	Found 'DD'-anomaly for variable 'index' (lines '56'-'56').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:56:	Found 'DU'-anomaly for variable 'index' (lines '56'-'71').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:57:	Found 'DD'-anomaly for variable 'a' (lines '57'-'57').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:61:	Found 'DD'-anomaly for variable 'new1' (lines '61'-'61').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:61:	Found 'DD'-anomaly for variable 'new1' (lines '61'-'64').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:61:	Found 'DU'-anomaly for variable 'new1' (lines '61'-'71').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:64:	Found 'DD'-anomaly for variable 'new1' (lines '64'-'61').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:64:	Found 'DD'-anomaly for variable 'new1' (lines '64'-'64').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:64:	Found 'DU'-anomaly for variable 'new1' (lines '64'-'71').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:74:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:76:	Found 'DD'-anomaly for variable 'court' (lines '76'-'79').
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:86:	Parameter 'element' is not assigned and could be declared final
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:86:	publicMethodCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:89:	Avoid if (x != y) ..; else ..;
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleList.java:93:	A method should have only one exit point, and that should be the last statement in the method
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleListTests.java:6:	Avoid unused imports such as 'org.junit.Test'
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleListTests.java:8:	Avoid unused imports such as 'nz.ac.massey.cs.pp.tutorial4.SimpleList'
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleListTests.java:11:	Each class should declare at least one constructor
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleListTests.java:11:	headerCommentRequirement Required
+src/nz/ac/massey/cs/pp/tutorial4/id17140713/MySimpleListTests.java:13:	publicMethodCommentRequirement Required
