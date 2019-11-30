@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="nz.ac.massey.cs.sdc.taxcalculator">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>0</Ce>
+                <A>0</A>
+                <I>0</I>
+                <D>1</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="IncomeTaxCalculator.java">
+                    nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculator
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>nz.ac.massey.cs.sdc.taxcalculator.ui</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="nz.ac.massey.cs.sdc.taxcalculator.ui">
+            <Stats>
+                <TotalClasses>4</TotalClasses>
+                <ConcreteClasses>4</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>1</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="TaxCalculatorUI.java">
+                    nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI
+                </Class>
+                <Class sourceFile="TaxCalculatorUI.java">
+                    nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI$1
+                </Class>
+                <Class sourceFile="TaxCalculatorUI.java">
+                    nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI$2
+                </Class>
+                <Class sourceFile="TaxCalculatorUI.java">
+                    nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI$3
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>nz.ac.massey.cs.sdc.taxcalculator</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+    </Packages>
+
+    <Cycles>
+    </Cycles>
+</JDepend>

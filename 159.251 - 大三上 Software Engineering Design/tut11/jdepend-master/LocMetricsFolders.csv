@@ -1,0 +1,23 @@
+Folder,Files,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+Total,60,7338,4054,3114,453,1530,1,1754,6444,0,0
+G:\大三 Amjed\tut11\jdepend-master,60,7338,4054,3114,453,1530,1,1754,6444,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample,17,1217,311,213,29,190,0,716,2373,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment,17,1217,311,213,29,190,0,716,2373,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\adapters,2,336,67,41,10,51,0,218,652,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\commands,5,211,55,35,5,35,0,121,451,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\framework,6,282,53,37,1,40,0,189,699,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\processor,2,138,45,31,3,23,0,70,243,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\request,1,170,63,48,7,28,0,79,215,0,0
+G:\大三 Amjed\tut11\jdepend-master\sample\epayment\response,1,80,28,21,3,13,0,39,113,0,0
+G:\大三 Amjed\tut11\jdepend-master\src,22,4380,2556,1869,403,882,1,942,3735,0,0
+G:\大三 Amjed\tut11\jdepend-master\src\jdepend,22,4380,2556,1869,403,882,1,942,3735,0,0
+G:\大三 Amjed\tut11\jdepend-master\src\jdepend\framework,12,2305,1386,1008,285,459,1,460,1920,0,0
+G:\大三 Amjed\tut11\jdepend-master\src\jdepend\swingui,8,1354,676,524,89,274,0,404,1551,0,0
+G:\大三 Amjed\tut11\jdepend-master\src\jdepend\textui,1,528,359,255,29,113,0,56,190,0,0
+G:\大三 Amjed\tut11\jdepend-master\src\jdepend\xmlui,1,193,135,82,0,36,0,22,74,0,0
+G:\大三 Amjed\tut11\jdepend-master\test,21,1741,1187,1032,21,458,0,96,336,0,0
+G:\大三 Amjed\tut11\jdepend-master\test\jdepend,21,1741,1187,1032,21,458,0,96,336,0,0
+G:\大三 Amjed\tut11\jdepend-master\test\jdepend\framework,21,1741,1187,1032,21,458,0,96,336,0,0
+G:\大三 Amjed\tut11\jdepend-master\test\jdepend\framework\p1,1,8,4,4,0,4,0,0,0,0,0
+G:\大三 Amjed\tut11\jdepend-master\test\jdepend\framework\p2,1,7,5,2,0,2,0,0,0,0,0
+G:\大三 Amjed\tut11\jdepend-master\test\jdepend\framework\p3,1,6,4,2,0,2,0,0,0,0,0

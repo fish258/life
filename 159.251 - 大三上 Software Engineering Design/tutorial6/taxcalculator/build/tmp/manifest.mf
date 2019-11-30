@@ -1,0 +1,6 @@
+Manifest-version: 1.0
+Main-class: nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI
+Name: taxcalculator
+Implementation-Title: taxcalculator
+Implementation-Version: 1.2
+Implementation-Vendor: Jens Dietrich, Massey University

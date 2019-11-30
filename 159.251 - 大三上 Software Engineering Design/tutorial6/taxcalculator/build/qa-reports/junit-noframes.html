@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+      
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests'] = new Array();
+    
+        cur['ant.core.lib'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['ant.home'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib';
+    
+        cur['ant.project.default-target'] = 'all';
+    
+        cur['ant.project.invoked-targets'] = 'all';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.1 compiled on February 2 2017';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['backup.dir'] = 'backup';
+    
+        cur['basedir'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator';
+    
+        cur['build.classes'] = 'build/classes';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['build.docs'] = 'build/docs';
+    
+        cur['build.docs.api'] = 'build/docs/api';
+    
+        cur['build.jar'] = 'build/lib/taxcalculator-1.2.jar';
+    
+        cur['build.lib'] = 'build/lib';
+    
+        cur['build.test.jar'] = 'build/lib/taxcalculator-tests-1.2.jar';
+    
+        cur['build.tests.jar'] = 'build/lib/taxcalculator-testsuite-1.2.jar';
+    
+        cur['build.tmp'] = 'build/tmp';
+    
+        cur['classes.dir'] = 'classes';
+    
+        cur['config.dir'] = 'config';
+    
+        cur['debug'] = 'on';
+    
+        cur['docs.dir'] = 'docs';
+    
+        cur['DSTAMP'] = '28092018';
+    
+        cur['eclipse.pdebuild.home'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\.';
+    
+        cur['eclipse.pdebuild.scripts'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\scripts';
+    
+        cur['eclipse.pdebuild.templates'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\templates';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\access-bridge-64.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\cldrdata.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\dnsns.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\jaccess.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\jfxrt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\localedata.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\nashorn.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunec.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunjce_provider.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunmscapi.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunpkcs11.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\zipfs.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-antlr.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-bcel.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-bsf.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-log4j.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-oro.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-regexp.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-resolver.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-xalan2.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-commons-logging.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-commons-net.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jai.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-javamail.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jdepend.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jmf.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jsch.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-junit.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-junit4.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-launcher.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-netrexx.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-swing.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-testutil.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\71\\0\\.cp\\lib\\antdebug.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\71\\0\\.cp\\lib\\remote.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\72\\0\\.cp\\lib\\remoteAnt.jar;C:\\Program Files\\Java\\jdk1.8.0_161\\lib\\tools.jar;G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\lib\\jdepend-2.9.1.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.eclipse.swt.win32.win32.x86_64_3.106.2.v20171129-0543.jar;G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jre1.8.0_161';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\dell\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.8.0_161\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\WINDOWS\\System32;;.;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\412\\0\\.cp';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_161-b12';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_161';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.161-b12';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '
+';
+    
+        cur['main.class.swing'] = 'nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI';
+    
+        cur['name'] = 'taxcalculator';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['qa.dir'] = 'build/qa-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_161\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1538125390062 -Declipse.connect.port=52823 -Declipse.pdebuild.home=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\. -Declipse.pdebuild.scripts=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\scripts -Declipse.pdebuild.templates=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\templates -Dant.home=C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'GBK';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['TODAY'] = 'September 28 2018';
+    
+        cur['TSTAMP'] = '170310';
+    
+        cur['user.country'] = 'CN';
+    
+        cur['user.dir'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator';
+    
+        cur['user.home'] = 'C:\\Users\\dell';
+    
+        cur['user.language'] = 'zh';
+    
+        cur['user.name'] = 'dell';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    
+        cur['version'] = '1.2';
+    
+        cur['version_suffix'] = '1_2';
+    
+    cur = TestCases['test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests'] = new Array();
+    
+        cur['ant.core.lib'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['ant.home'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = 'C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib';
+    
+        cur['ant.project.default-target'] = 'all';
+    
+        cur['ant.project.invoked-targets'] = 'all';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.1 compiled on February 2 2017';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['backup.dir'] = 'backup';
+    
+        cur['basedir'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator';
+    
+        cur['build.classes'] = 'build/classes';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['build.docs'] = 'build/docs';
+    
+        cur['build.docs.api'] = 'build/docs/api';
+    
+        cur['build.jar'] = 'build/lib/taxcalculator-1.2.jar';
+    
+        cur['build.lib'] = 'build/lib';
+    
+        cur['build.test.jar'] = 'build/lib/taxcalculator-tests-1.2.jar';
+    
+        cur['build.tests.jar'] = 'build/lib/taxcalculator-testsuite-1.2.jar';
+    
+        cur['build.tmp'] = 'build/tmp';
+    
+        cur['classes.dir'] = 'classes';
+    
+        cur['config.dir'] = 'config';
+    
+        cur['debug'] = 'on';
+    
+        cur['docs.dir'] = 'docs';
+    
+        cur['DSTAMP'] = '28092018';
+    
+        cur['eclipse.pdebuild.home'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\.';
+    
+        cur['eclipse.pdebuild.scripts'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\scripts';
+    
+        cur['eclipse.pdebuild.templates'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\templates';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\access-bridge-64.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\cldrdata.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\dnsns.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\jaccess.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\jfxrt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\localedata.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\nashorn.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunec.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunjce_provider.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunmscapi.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunpkcs11.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\zipfs.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-antlr.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-bcel.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-bsf.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-log4j.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-oro.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-regexp.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-resolver.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-apache-xalan2.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-commons-logging.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-commons-net.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jai.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-javamail.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jdepend.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jmf.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-jsch.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-junit.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-junit4.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-launcher.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-netrexx.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-swing.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant-testutil.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840\\lib\\ant.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\71\\0\\.cp\\lib\\antdebug.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\71\\0\\.cp\\lib\\remote.jar;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\72\\0\\.cp\\lib\\remoteAnt.jar;C:\\Program Files\\Java\\jdk1.8.0_161\\lib\\tools.jar;G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\lib\\jdepend-2.9.1.jar;C:\\Users\\dell\\.p2\\pool\\plugins\\org.eclipse.swt.win32.win32.x86_64_3.106.2.v20171129-0543.jar;G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext;C:\\WINDOWS\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jre1.8.0_161';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\dell\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse;C:\\WINDOWS\\Sun\\Java\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.8.0_161\\bin;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python36\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\;C:\\Users\\dell\\AppData\\Local\\Programs\\Python\\Python35\\;C:\\Users\\dell\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\WINDOWS\\System32;;.;C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\configuration\\org.eclipse.osgi\\412\\0\\.cp';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_161-b12';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_161';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.161-b12';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = '
+';
+    
+        cur['main.class.swing'] = 'nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI';
+    
+        cur['name'] = 'taxcalculator';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['qa.dir'] = 'build/qa-reports';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\lib\\resources.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\rt.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jsse.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jce.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\charsets.jar;C:\\Program Files\\Java\\jre1.8.0_161\\lib\\jfr.jar;C:\\Program Files\\Java\\jre1.8.0_161\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jre1.8.0_161\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1538125390062 -Declipse.connect.port=52823 -Declipse.pdebuild.home=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\. -Declipse.pdebuild.scripts=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\scripts -Declipse.pdebuild.templates=C:\\Users\\dell\\eclipse\\java-oxygen\\eclipse\\..\\..\\..\\.p2\\pool\\plugins\\org.eclipse.pde.build_3.9.300.v20170515-0912\\templates -Dant.home=C:\\Users\\dell\\.p2\\pool\\plugins\\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator\\build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'GBK';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['TODAY'] = 'September 28 2018';
+    
+        cur['TSTAMP'] = '170310';
+    
+        cur['user.country'] = 'CN';
+    
+        cur['user.dir'] = 'G:\\&#22823;&#19977; Amjed\\tutorial56\\tutorial6\\taxcalculator';
+    
+        cur['user.home'] = 'C:\\Users\\dell';
+    
+        cur['user.language'] = 'zh';
+    
+        cur['user.name'] = 'dell';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    
+        cur['version'] = '1.2';
+    
+        cur['version_suffix'] = '1_2';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+        
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://jakarta.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>20</td><td>0</td><td>0</td><td>100.00%</td><td>0.059</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#test.nz.ac.massey.cs.sdc.taxcalculator">test.nz.ac.massey.cs.sdc.taxcalculator</a></td><td>20</td><td>0</td><td>0</td><td>0.059</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name="test.nz.ac.massey.cs.sdc.taxcalculator"></a>
+<h3>Package test.nz.ac.massey.cs.sdc.taxcalculator</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#IncomeTaxCalculatorTests">IncomeTaxCalculatorTests</a></td><td>9</td><td>0</td><td>0</td><td>0.045</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#IncomeTaxCalculatorBatchTests">IncomeTaxCalculatorBatchTests</a></td><td>11</td><td>0</td><td>0</td><td>0.014</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="IncomeTaxCalculatorBatchTests"></a>
+<h3>TestCase IncomeTaxCalculatorBatchTests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>test[0]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[1]</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>test[2]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[3]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[4]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[5]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[6]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[7]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[8]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[9]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[10]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="IncomeTaxCalculatorTests"></a>
+<h3>TestCase IncomeTaxCalculatorTests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testLargeIncome</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>test1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testZero</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testSmallIncome</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testNegativeIncome2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test2InclPerformance</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testNegativeIncome1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test1InclPerformance</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body>
+
+<div id="body">
+	<header>
+		<h1>Todos</h1>
+	</header>
+
+	<!--div id="content" wicket:id="contentComponent">content
+	</div-->
+
+	<h2>New Task</h2>
+	
+
+	<form wicket:id="entryForm">
+		<div><label>Name </label><input
+				wicket:id="name"
+				type="text" style="width: 15em" /></div>
+		<div><label>Description </label><input
+				wicket:id="description" type="text" style="width: 30em"
+		/></div>
+		<div><label>Date </label><input
+				wicket:id="date"
+				type="text" style="width: 15em" /></div>
+		<div><label>Project title</label><input 
+				wicket:id="project_title"
+				type="text" style="width: 15em" /></div>
+		
+		<div><input type="submit" value="Add" /></div>
+	</form>
+	<hr>
+
+	<h2>Task List</h2>
+
+	<form wicket:id="listForm">
+
+	<table>
+		<tr wicket:id="task_list">
+			<td>
+			
+				<input class="toggle" type="checkbox" wicket:id="completed" />
+				<span wicket:id="name">Name</span>
+				<span wicket:id="description">Description</span>
+				<span wicket:id="date">Date</span>
+				<span wicket:id="project_title">project title</span>
+				
+			</td>
+		</tr>
+	</table>
+	
+	</form>
+	Total number of incomplete tasks:<span id = "activeCount" wicket:id="activeCount"></span>
+	Environment:<span id = "environment" wicket:id="environment"></span>
+	<hr>
+	<a href="#" wicket:id="selectAll">Select all</a>
+	<a href="#" wicket:id="clear">clear</a>
+	<a href="#" wicket:id="completed">completed tasks</a>
+	<a href="#" wicket:id="active">active tasks</a>
+	<a href="#" wicket:id="all">all tasks</a>
+	<a href="#" wicket:id="refresh_count">refresh count</a>
+	<a href="#" wicket:id="ToXML">ToXML</a>
+	<a href="#" wicket:id="loadfile">Load file</a>
+	
+
+
+	<hr>
+	<footer>
+		<div id="datetime" wicket:id="datetime">
+		</div>
+	</footer>
+
+</div>
+</body>
+</html>

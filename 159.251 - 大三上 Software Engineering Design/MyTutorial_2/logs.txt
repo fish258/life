@@ -1,0 +1,7 @@
+8 [main] INFO MergeTransactions - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2012
+2 [main] INFO MergeTransactions - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2012
+1 [main] INFO MergeTransactions - cannot parse date from string - please check whether syntax is correct: Animates,4,13/5/2012
+10 [main] FATAL MergeTransactions - file transactions4.csv does not exist - skip
+4 [main] FATAL MergeTransactions - file transactions4.csv does not exist - skip
+3 [main] FATAL MergeTransactions - file transactions4.csv does not exist - skip
+1 [main] FATAL MergeTransactions - file transactions4.csv does not exist - skip

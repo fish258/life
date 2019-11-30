@@ -1,0 +1,20 @@
+ 驱动器 G 中的卷是 本地磁盘（G:)
+ 卷的序列号是 462E-162E
+
+ G:\大三 Amjed\tut1\TutorialFiles 的目录
+
+2018/09/11  13:39    <DIR>          .
+2018/09/11  13:39    <DIR>          ..
+2016/08/15  12:32                81 HelloWorldInCpp.cpp
+2016/08/06  19:43               624 leapYear.java
+2016/08/06  18:48               424 leapYear.py
+2018/09/11  13:51                 0 output.txt
+2016/08/15  12:34                53 README.txt
+2016/08/15  12:28               742 Simplecalculator.py
+               6 个文件          1,924 字节
+               2 个目录 115,220,566,016 可用字节
+desktop-f4eiqjb\dell
+
+---------- OUTPUT.TXT
+
+---------- README.TXT

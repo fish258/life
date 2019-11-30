@@ -1,0 +1,13 @@
+To $person.name
+$person.address.street
+$person.address.town
+ 
+Dear $person.firstName , 
+ 
+I would like to invite you to wedding this Friday, 8PM at KFC restaurant (Beichen Branch). 
+ 
+Cheers,
+me
+
+age: $person.address.number
+----------------------------------------------------------------

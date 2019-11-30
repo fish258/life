@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-F4EIQJB" id="0" name="IncomeTaxCalculatorTests" package="test.nz.ac.massey.cs.sdc.taxcalculator" skipped="0" tests="9" time="0.045" timestamp="2018-09-28T09:03:11">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.lib" value="build/lib" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="build.tmp" value="build/tmp" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes" />
+
+          <property name="main.class.swing" value="nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI" />
+
+          <property name="TODAY" value="September 28 2018" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_161-b12" />
+
+          <property name="version_suffix" value="1_2" />
+
+          <property name="user.name" value="dell" />
+
+          <property name="debug" value="on" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="DSTAMP" value="28092018" />
+
+          <property name="java.version" value="1.8.0_161" />
+
+          <property name="version" value="1.2" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="build.docs.api" value="build/docs/api" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="build.jar" value="build/lib/taxcalculator-1.2.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161" />
+
+          <property name="build.tests.jar" value="build/lib/taxcalculator-testsuite-1.2.jar" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.161-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+
+          <property name="user.home" value="C:\Users\dell" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Users\dell\eclipse\java-oxygen\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\dell\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python36\;C:\Users\dell\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python35\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;.;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\412\0\.cp" />
+
+          <property name="name" value="taxcalculator" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1538125390062 -Declipse.connect.port=52823 -Declipse.pdebuild.home=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\. -Declipse.pdebuild.scripts=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts -Declipse.pdebuild.templates=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates -Dant.home=C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="java.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\zipfs.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-antlr.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-bcel.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-bsf.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-log4j.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-oro.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-regexp.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-resolver.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-xalan2.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-commons-logging.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-commons-net.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jai.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-javamail.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jdepend.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jmf.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jsch.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-netrexx.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-swing.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-testutil.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\71\0\.cp\lib\antdebug.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\71\0\.cp\lib\remote.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\72\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_161\lib\tools.jar;G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\lib\jdepend-2.9.1.jar;C:\Users\dell\.p2\pool\plugins\org.eclipse.swt.win32.win32.x86_64_3.106.2.v20171129-0543.jar;G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="TSTAMP" value="170310" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="build.classes" value="build/classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+
+          <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="qa.dir" value="build/qa-reports" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator" />
+
+          <property name="build.docs" value="build/docs" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="config.dir" value="config" />
+
+          <property name="ant.core.lib" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="build.test.jar" value="build/lib/taxcalculator-tests-1.2.jar" />
+
+          <property name="backup.dir" value="backup" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="testLargeIncome" time="0.008" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="test1" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="test2" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="testZero" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="testSmallIncome" time="0.001" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="testNegativeIncome2" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="test2InclPerformance" time="0.002" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="testNegativeIncome1" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorTests" name="test1InclPerformance" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-F4EIQJB" id="1" name="IncomeTaxCalculatorBatchTests" package="test.nz.ac.massey.cs.sdc.taxcalculator" skipped="0" tests="11" time="0.014" timestamp="2018-09-28T09:03:11">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.lib" value="build/lib" />
+
+          <property name="docs.dir" value="docs" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="build.tmp" value="build/tmp" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes" />
+
+          <property name="main.class.swing" value="nz.ac.massey.cs.sdc.taxcalculator.ui.TaxCalculatorUI" />
+
+          <property name="TODAY" value="September 28 2018" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_161-b12" />
+
+          <property name="version_suffix" value="1_2" />
+
+          <property name="user.name" value="dell" />
+
+          <property name="debug" value="on" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="DSTAMP" value="28092018" />
+
+          <property name="java.version" value="1.8.0_161" />
+
+          <property name="version" value="1.2" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="build.docs.api" value="build/docs/api" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="build.jar" value="build/lib/taxcalculator-1.2.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161" />
+
+          <property name="build.tests.jar" value="build/lib/taxcalculator-testsuite-1.2.jar" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.161-b12" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+
+          <property name="user.home" value="C:\Users\dell" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Users\dell\eclipse\java-oxygen\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\dell\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python36\;C:\Users\dell\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\dell\AppData\Local\Programs\Python\Python35\;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;.;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\412\0\.cp" />
+
+          <property name="name" value="taxcalculator" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1538125390062 -Declipse.connect.port=52823 -Declipse.pdebuild.home=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\. -Declipse.pdebuild.scripts=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts -Declipse.pdebuild.templates=C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates -Dant.home=C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="java.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_161\lib\ext\zipfs.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-antlr.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-bcel.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-bsf.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-log4j.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-oro.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-regexp.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-resolver.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-apache-xalan2.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-commons-logging.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-commons-net.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jai.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-javamail.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jdepend.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jmf.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-jsch.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-netrexx.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-swing.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-testutil.jar;C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\71\0\.cp\lib\antdebug.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\71\0\.cp\lib\remote.jar;C:\Users\dell\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\72\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_161\lib\tools.jar;G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\lib\jdepend-2.9.1.jar;C:\Users\dell\.p2\pool\plugins\org.eclipse.swt.win32.win32.x86_64_3.106.2.v20171129-0543.jar;G:\大三 Amjed\tutorial56\tutorial6\taxcalculator\build.xml" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="TSTAMP" value="170310" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="build.classes" value="build/classes" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\dell\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+
+          <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="qa.dir" value="build/qa-reports" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator" />
+
+          <property name="build.docs" value="build/docs" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="G:\大三 Amjed\tutorial56\tutorial6\taxcalculator" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="config.dir" value="config" />
+
+          <property name="ant.core.lib" value="C:\Users\dell\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="build.test.jar" value="build/lib/taxcalculator-tests-1.2.jar" />
+
+          <property name="backup.dir" value="backup" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[0]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[1]" time="0.001" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[2]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[3]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[4]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[5]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[6]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[7]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[8]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[9]" time="0.0" />
+
+      <testcase classname="test.nz.ac.massey.cs.sdc.taxcalculator.IncomeTaxCalculatorBatchTests" name="test[10]" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
